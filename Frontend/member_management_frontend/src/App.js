@@ -1,11 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
-import DataBox from "./components/common/dataBox";
+import "bootstrap/dist/css/bootstrap.min.css";
+import UserTable from "./components/userTable";
 
 function App() {
   return (
     <div className="App">
-      <DataBox />
+      <UserTable />
     </div>
   );
 }
